@@ -12,4 +12,4 @@ $(TARGET): $(OBJS)
 	$(CC) -c -o $@ $<
 
 clean:
-	rm *.o a.out
+	rm *.o $(TARGET)
